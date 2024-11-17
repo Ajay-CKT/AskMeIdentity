@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AskMeIdentity - Safe Gaurd Your Digital Frontier</title>
+    <link rel="stylesheet" href="./output/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&family=Rowdies:wght@300;400;700&family=Saira:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="h-24 0 px-12 py-4 fixed top-0 left-0 w-full bg-white z-50">
+      <nav class="h-full flex flex-row items-center justify-between">
+        <div class="w-32 h-full">
+          <img
+            src="./public/images/AskMeIdentity-logo.png"
+            alt=""
+            class="h-full w-full"
+          />
+        </div>
+        <div class="flex flex-row items-center justify-between gap-x-44">
+          <div
+            class="font-righteous flex flex-row items-center justify-center space-x-6"
+          >
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#courses">Courses</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <div class="flex flex-row items-center justify-center space-x-4">
+            <div class="size-7 flex items-center justify-center">
+              <div class="relative">
+                <img src="./public/icons/cart-icon.png" alt="cart-icon" />
+                <div
+                  class="absolute text-white font-righteous bg-cartGreen rounded-full top-[-10px] right-[-4px] w-4 h-4 flex flex-row items-center justify-center"
+                >
+                  0
+                </div>
+              </div>
+            </div>
+            <div class="size-7 flex items-center justify-center">
+              <img src="./public/icons/profile-icon.png" alt="profile-icon" />
+            </div>
+            <div class="size-7 flex items-center justify-center">
+              <img src="./public/icons/search-icon.png" alt="search-icon" />
+            </div>
+          </div>
+          <div
+            class="flex flex-row items-center justify-center space-x-4 h-full"
+          >
+            <button type="button" class="px-5 py-3 nav-link font-saira">
+              Login
+            </button>
+            <button
+              type="button"
+              class="px-5 py-2 font-saira bg-gradient-to-r from-gradientFrom to-gradientTo rounded-lg text-white"
+            >
+              Signup
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section
+      class="h-screen bg-gradient-to-bl from-[#04016C] to-[#4A16BD] flex flex-row items-center overflow-hidden"
+    >
+      <div
+        class="relative w-1/2 ml-20 font-righteous text-white flex flex-col items-start gap-10"
+      >
+        <img
+          src="./public/images/white-ellipse-primary.png"
+          alt=""
+          class="w-3/4 rotate-180 absolute left-[-475px] top-[-150px]"
+        />
+        <p class="text-sm">SUCCUSSFUL COACHES ARE VISIONARIES</p>
+        <h1 class="text-6xl w-3/4">
+          Good <span class="text-[#0E38CD]">coaching</span> is good teaching &
+          nothing else.
+        </h1>
+        <div
+          class="text-sm h-16 flex flex-row items-center justify-center gap-5"
+        >
+          <button
+            type="button"
+            class="px-5 py-3 border-[1px] border-white rounded-lg"
+          >
+            View Courses
+          </button>
+          <button type="button" class="">Get Free Consultation</button>
+        </div>
+        <div
+          class="flex flex-row items-center gap-4 px-4 py-2 w-[60%] bg-white rounded-lg"
+        >
+          <input
+            type="text"
+            placeholder="what do you want to learn today?"
+            class="w-[80%] outline-none text-black"
+          />
+          <button
+            type="button"
+            class="flex flex-row items-center justify-center gap-2 px-4 py-2 bg-gradient-to-r from-gradientFrom to-gradientTo rounded-lg"
+          >
+            <img src="./public/icons/search-white-icon.png" alt="" />
+            <span>Search</span>
+          </button>
+        </div>
+      </div>
+      <div class="relative w-1/2 h-full items-center justify-center">
+        <img
+          src="./public/images/white-ellipse-primary.png"
+          alt=""
+          class="w-[740px]"
+        />
+        <img
+          src="./public/images/women-with-laptop.png"
+          alt=""
+          class="absolute bottom-0 left-[25%] w-[450px] backdrop-blur-sm"
+        />
+        <div class="absolute top-40 flex flex-row gap-4 h-40 w-72">
+          <div class="w-24 h-full">
+            <img
+              src="./public/images/feedback-card.png"
+              alt=""
+              class="h-full"
+            />
+          </div>
+          <div
+            class="text-white flex flex-col justify-center items-start gap-2 h-full"
+          >
+            <h4 class="font-rowdies">Shyam</h4>
+            <p class="font-righteous">
+              In a coaching role, you ask the questions and rely more on your
+              staff, who become the experts, to provide the information.
+            </p>
+            <p class="text-[#0094E7] font-inter">4.9</p>
+          </div>
+          <div
+            class="absolute w-[313px] h-[659px] border-b-0 border-[1px] border-[#D9D9D9] rounded-t-full p-6 left-[-200px] bottom-[-850px]"
+          >
+            <div
+              class="absolute w-[271px] h-[638px] border-b-0 border-2 border-dotted border-[#D9D9D9] rounded-t-full p-6"
+            >
+              <div
+                class="absolute w-[225px] h-[618px] border-b-0 border-[1px] border-[#D9D9D9] rounded-t-full"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="h-[130px] bg-gradient-to-b from-[#2E08C7] to-[#7E08C7] flex items-center py-2 border-t-[1px] border-white"
+    >
+      <div
+        class="overflow-hidden whitespace-nowrap flex flex-col items-center justify-center h-full"
+      >
+        <div class="flex justify-center items-center gap-28 h-3/4 w-[80%]">
+          <img src="./public/images/amazon.png" alt="amazon-logo" />
+          <img src="./public/images/spotify.png" alt="spotify logo" />
+          <img src="./public/images/cisco.png" alt="cisco-logo" />
+          <img src="./public/images/logitech.png" alt="logitech-logo" />
+          <img src="./public/images/amazon.png" alt="amazon-logo" />
+          <img src="./public/images/spotify.png" alt="spotify logo" />
+          <img src="./public/images/cisco.png" alt="cisco-logo" />
+          <img src="./public/images/logitech.png" alt="logitech-logo" />
+        </div>
+      </div>
+    </section>
+    <!--animate-marquee -->
+    <section
+      id="courses"
+      class="bg-gradient-to-t from-[#D9ECFF] to-[#F0F3FF] px-12 py-16 flex flex-col justify-center items-center space-y-12"
+    >
+      <div
+        class="flex flex-col justify-center items-center text-center space-y-2 pb-20 relative"
+      >
+        <h2 class="font-rowdies text-[#323232] text-3xl">
+          Featured <span class="text-[#4883FF]">Course</span>
+        </h2>
+        <p class="font-righteous text-[#000000] text-sm">
+          THE FEATURED COURSES ARE WE INVENTED OUR TEACHING PART
+        </p>
+        <div
+          class="absolute w-[75px] h-[75px] rounded-full opacity-20 border-[15px] bg-white border-[#23BDEE] top-[-10px] left-[-300px]"
+        ></div>
+      </div>
+      <div class="w-full grid grid-cols-3 gap-16 pl-16">
+        <div class="h-[420px] w-[360px] bg-white rounded-lg font-saira">
+          <div class="w-full h-auto">
+            <img
+              src="./public/images/card-img-1.png"
+              alt="card-img-1"
+              class="rounded-lg object-cover object-center"
+            />
+          </div>
+          <div class="p-4 flex flex-col gap-10">
+            <div class="flex flex-col gap-7">
+              <div
+                class="flex items-center justify-between text-xs text-[#4E596B]"
+              >
+                <p class="">1,957 Students</p>
+                <p>01h 59m</p>
+              </div>
+              <div class="w-3/4 text-md font-semibold text-[#324361]">
+                <h2>Motion Graphics: Create a Nice Typography Animation</h2>
+              </div>
+            </div>
+            <div
+              class="flex items-center justify-between text-sm text-[#4E596B]"
+            >
+              <p>Rs.499</p>
+              <img
+                src="./public/icons/card-cart-icon.png"
+                alt="card-cart-icon"
+                class="size-6"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="h-[420px] w-[360px] bg-white rounded-lg font-saira">
+          <div class="w-full h-auto">
+            <img
+              src="./public/images/card-img-2.png"
+              alt="card-img-1"
+              class="rounded-lg object-cover object-center"
+            />
+          </div>
+          <div class="p-4 flex flex-col gap-10">
+            <div class="flex flex-col gap-7">
+              <div
+                class="flex items-center justify-between text-xs text-[#4E596B]"
+              >
+                <p class="">9,575 Students</p>
+                <p>01h 59m</p>
+              </div>
+              <div class="w-3/4 text-md font-semibold text-[#324361]">
+                <h2>Advance PHP knowledge with JS to make smart web</h2>
+              </div>
+            </div>
+            <div
+              class="flex items-center justify-between text-sm text-[#4E596B]"
+            >
+              <p>Rs.499</p>
+              <img
+                src="./public/icons/card-cart-icon.png"
+                alt="card-cart-icon"
+                class="size-6"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="h-[420px] w-[360px] bg-white rounded-lg font-saira">
+          <div class="w-full h-auto">
+            <img
+              src="./public/images/card-img-3.png"
+              alt="card-img-3"
+              class="rounded-lg object-cover object-center"
+            />
+          </div>
+          <div class="p-4 flex flex-col gap-10">
+            <div class="flex flex-col gap-7">
+              <div
+                class="flex items-center justify-between text-xs text-[#4E596B]"
+              >
+                <p class="">2,934 Students</p>
+                <p>02h 49m</p>
+              </div>
+              <div class="w-3/4 text-md font-semibold text-[#324361]">
+                <h2>Education Software and PHP, JS System Script</h2>
+              </div>
+            </div>
+            <div
+              class="flex items-center justify-between text-sm text-[#4E596B]"
+            >
+              <p>Rs.499</p>
+              <img
+                src="./public/icons/card-cart-icon.png"
+                alt="card-cart-icon"
+                class="size-6"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="h-[420px] w-[360px] bg-white rounded-lg font-saira">
+          <div class="w-full h-auto">
+            <img
+              src="./public/images/card-img-4.png"
+              alt="card-img-4"
+              class="rounded-lg object-cover object-center"
+            />
+          </div>
+          <div class="p-4 flex flex-col gap-10">
+            <div class="flex flex-col gap-7">
+              <div
+                class="flex items-center justify-between text-xs text-[#4E596B]"
+              >
+                <p class="">5,4,58 Students</p>
+                <p>01h 49m</p>
+              </div>
+              <div class="w-3/4 text-md font-semibold text-[#324361]">
+                <h2>The Complete Financial Analyst Training & Investing</h2>
+              </div>
+            </div>
+            <div
+              class="flex items-center justify-between text-sm text-[#4E596B]"
+            >
+              <p>Rs.499</p>
+              <img
+                src="./public/icons/card-cart-icon.png"
+                alt="card-cart-icon"
+                class="size-6"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="h-[420px] w-[360px] bg-white rounded-lg font-saira">
+          <div class="w-full h-auto">
+            <img
+              src="./public/images/card-img-5.png"
+              alt="card-img-5"
+              class="rounded-lg object-cover object-center"
+            />
+          </div>
+          <div class="p-4 flex flex-col gap-10">
+            <div class="flex flex-col gap-7">
+              <div
+                class="flex items-center justify-between text-xs text-[#4E596B]"
+              >
+                <p class="">576 Students</p>
+                <p>01h 59m</p>
+              </div>
+              <div class="w-3/4 text-md font-semibold text-[#324361]">
+                <h2>Marketing 2023: Complete Guide To Intagram Growth</h2>
+              </div>
+            </div>
+            <div
+              class="flex items-center justify-between text-sm text-[#4E596B]"
+            >
+              <p>Rs.499</p>
+              <img
+                src="./public/icons/card-cart-icon.png"
+                alt="card-cart-icon"
+                class="size-6"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="h-[420px] w-[360px] bg-white rounded-lg font-saira">
+          <div class="w-full h-auto">
+            <img
+              src="./public/images/card-img-6.png"
+              alt="card-img-6"
+              class="rounded-lg object-cover object-center"
+            />
+          </div>
+          <div class="p-4 flex flex-col gap-10">
+            <div class="flex flex-col gap-7">
+              <div
+                class="flex items-center justify-between text-xs text-[#4E596B]"
+              >
+                <p class="">458 Students</p>
+                <p>03h 00m</p>
+              </div>
+              <div class="w-3/4 text-md font-semibold text-[#324361]">
+                <h2>Learn 3D Modelling and Design for Beginners</h2>
+              </div>
+            </div>
+            <div
+              class="flex items-center justify-between text-sm text-[#4E596B]"
+            >
+              <p>Rs.499</p>
+              <img
+                src="./public/icons/card-cart-icon.png"
+                alt="card-cart-icon"
+                class="size-6"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-white flex flex-row justify-center items-center">
+        <button
+          type="button"
+          class="font-righteous px-4 py-2 bg-gradient-to-r from-gradientFrom to-gradientTo rounded-lg"
+        >
+          Explore Courses
+        </button>
+      </div>
+    </section>
+    <section
+      class="relative bg-gradient-to-r from-[#739FE8] to-[#4F18CA] py-16 px-64 flex flex-col gap-16 overflow-hidden"
+    >
+      <div
+        class="absolute w-[200px] h-[600px] border-b-0 border-[1px] border-[#D9D9D9] rounded-t-full p-6 rotate-90 top-[-150px] left-[-250px]"
+      >
+        <div
+          class="absolute w-[150px] h-[600px] border-b-0 border-2 border-dotted border-[#D9D9D9] rounded-t-full p-6"
+        >
+          <div
+            class="absolute w-[100px] h-[600px] border-b-0 border-[1px] border-[#D9D9D9] rounded-t-full"
+          ></div>
+        </div>
+      </div>
+      <div
+        class="text-white flex flex-col items-center justify-center gap-4 text-center"
+      >
+        <h2 class="font-righteous text-3xl">
+          Why <span class="text-[#0E38CD]">learn</span> with our courses?
+        </h2>
+        <p class="font-saira w-[40%]">
+          We are providing best courses and top classes and extradinery
+          placement training....
+        </p>
+      </div>
+      <div class="w-full flex flex-row">
+        <div
+          class="w-1/3 py-6 px-8 flex flex-col items-center justify-center gap-6 text-white font-righteous border-r-2 border-dotted"
+        >
+          <div class="size-12">
+            <img src="./public/icons/learn-icon.png" alt="learn-icon" />
+          </div>
+          <h3 class="text-center text-xl">01. Learn</h3>
+          <p class="text-center text-sm w-[90%]">
+            Learn continuously. There is always "one more thing" to learn.
+          </p>
+        </div>
+        <div
+          class="w-1/3 py-6 px-8 flex flex-col items-center justify-center gap-6 border-r-2 border-dotted text-white font-righteous"
+        >
+          <div class="size-12">
+            <img src="./public/icons/graduate-icon.png" alt="graduate-icon" />
+          </div>
+          <h3 class="text-center text-xl">02. Graduate</h3>
+          <p class="text-center text-sm w-[90%]">
+            Be bold, be courageous, be your best.
+          </p>
+        </div>
+        <div
+          class="w-1/3 py-6 px-8 flex flex-col items-center justify-center gap-6 text-white font-righteous"
+        >
+          <div class="size-12">
+            <img src="./public/icons/work-icon.png" alt="work-icon" />
+          </div>
+          <h3 class="text-center text-xl">03. Work</h3>
+          <p class="text-center text-sm w-[90%]">
+            Great companies are built in the office, with hard work put in by
+            team.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section
+      class="w-full bg-gradient-to-b from-[#D9ECFF] to-[#D9ECFF] py-12 px-16 font-righteous flex flex-col gap-12"
+    >
+      <div class="text-center">
+        <h2 class="text-[#323232] text-3xl">
+          Top <span class="text-[#0E38CD]">Categories</span>
+        </h2>
+        <p class="text-[#4E596B]">100+ unique online course list designs</p>
+      </div>
+      <div class="grid grid-cols-6 gap-6 w-full">
+        <div
+          class="w-44 py-6 px-8 flex flex-col justify-center items-center gap-6 text-center bg-white rounded-lg"
+        >
+          <div class="bg-[#DF385B] flex justify-center size-14 rounded-lg p-2">
+            <img
+              src="./public/icons/speaker-icon.png"
+              alt="digital-marketing-icon"
+            />
+          </div>
+          <h3 class="text-lg text-[#324361]">Digital Marketing</h3>
+          <p class="text-[#4F547B]">25 courses</p>
+        </div>
+        <div
+          class="w-44 py-6 px-8 flex flex-col justify-center items-center gap-6 text-center bg-white rounded-lg"
+        >
+          <div class="bg-[#5AB48E] flex justify-center size-14 rounded-lg p-2">
+            <img src="./public/icons/ide-icon.png" alt="ide-icon" />
+          </div>
+          <h3 class="text-lg text-[#324361]">Web Development</h3>
+          <p class="text-[#4F547B]">16 courses</p>
+        </div>
+        <div
+          class="w-44 py-6 px-8 flex flex-col justify-center items-center gap-6 text-center bg-white rounded-lg"
+        >
+          <div class="bg-[#7F56D9] flex justify-center size-14 rounded-lg p-2">
+            <img src="./public/icons/art-icon.png" alt="arts-icon" />
+          </div>
+          <h3 class="text-lg text-[#324361]">Art & Humanities</h3>
+          <p class="text-[#4F547B]">76 courses</p>
+        </div>
+        <div
+          class="w-44 py-6 px-8 flex flex-col justify-center items-center gap-6 text-center bg-white rounded-lg"
+        >
+          <div class="bg-[#FAB437] flex justify-center size-14 rounded-lg p-2">
+            <img
+              src="./public/icons/speaker-icon.png"
+              alt="digital-marketing-icon"
+            />
+          </div>
+          <h3 class="text-lg text-[#324361]">Personal Development</h3>
+          <p class="text-[#4F547B]">22 courses</p>
+        </div>
+        <div
+          class="w-44 py-6 px-8 flex flex-col justify-center items-center gap-6 text-center bg-white rounded-lg"
+        >
+          <div class="bg-[#2AAA94] flex justify-center size-14 rounded-lg p-2">
+            <img src="./public/icons/unity-icon.png" alt="unity-icon" />
+          </div>
+          <h3 class="text-lg text-[#324361]">IT and Software</h3>
+          <p class="text-[#4F547B]">110 courses</p>
+        </div>
+        <div
+          class="w-44 py-6 px-8 flex flex-col justify-center items-center gap-6 text-center bg-white rounded-lg"
+        >
+          <div class="bg-[#2CD182] flex justify-center size-14 rounded-lg p-2">
+            <img src="./public/icons/graphic-icon.png" alt="graphic-icon" />
+          </div>
+          <h3 class="text-lg text-[#324361]">Graphic Design</h3>
+          <p class="text-[#4F547B]">85 courses</p>
+        </div>
+      </div>
+    </section>
+    <section class="w-full relative flex flex-col" id="contact">
+      <div class="mx-[20%] mt-28 flex flex-col gap-24">
+        <div class="relative w-full subscribe rounded-lg p-8">
+          <div
+            class="flex flex-col items-center justify-center gap-10 text-center text-white font-righteous"
+          >
+            <h2 class="text-3xl z-10">
+              Subscribe For Get Update <br />Every New Courses
+            </h2>
+            <p class="text-xs">
+              20k+ students daily learn with Eduvi. Subscribe for new courses.
+            </p>
+            <div class="w-1/2 bg-[rgba(229,227,227,0.4)] h-10 flex rounded-lg">
+              <input
+                type="email"
+                placeholder="enter your email"
+                class="w-[80%] outline-none rounded-l-lg"
+              />
+              <button type="button" class="w-[20%] rounded-r-lg bg-[#0E38CD]">
+                Subscribe
+              </button>
+            </div>
+          </div>
+          <div class="absolute w-12 h-12 border-none top-4">
+            <img
+              src="./public/images/person-1.png"
+              alt="person-1"
+              class="w-full h-full object-cover object-center"
+            />
+          </div>
+          <div class="absolute w-12 h-12 border-none bottom-4 left-8">
+            <img
+              src="./public/images/person-2.png"
+              alt="person-2"
+              class="w-full h-full object-cover object-center"
+            />
+          </div>
+          <div class="absolute w-12 h-12 border-none top-1/2 left-28">
+            <img
+              src="./public/images/person-3.png"
+              alt="person-3"
+              class="w-full h-full object-cover object-center"
+            />
+          </div>
+          <div class="absolute w-12 h-12 border-none right-4 top-4">
+            <img
+              src="./public/images/person-4.png"
+              alt="person-4"
+              class="w-full h-full object-cover object-center"
+            />
+          </div>
+          <div class="absolute w-12 h-12 border-none bottom-4 right-4">
+            <img
+              src="./public/images/person-5.png"
+              alt="person-5"
+              class="w-full h-full object-cover object-center"
+            />
+          </div>
+          <div class="absolute w-12 h-12 border-none bottom-1/2 right-28">
+            <img
+              src="./public/images/person-1.png"
+              alt="person-1"
+              class="w-full h-full object-cover object-center"
+            />
+          </div>
+          <div
+            class="absolute w-14 h-14 border-none left-[-25px] bottom-[-30px]"
+          >
+            <img
+              src="./public/images/Polygon-1.png"
+              alt="person-1"
+              class="w-full h-full object-cover object-center"
+            />
+          </div>
+          <div
+            class="absolute w-14 h-14 border-none right-[-200px] bottom-[-100px]"
+          >
+            <img
+              src="./public/images/Polygon-2.png"
+              alt="polygon-2"
+              class="w-full h-full object-cover object-center"
+            />
+          </div>
+          <div class="absolute w-14 h-14 border-none top-0 left-1/2">
+            <img
+              src="./public/images/Polygon-1.png"
+              alt="person-1"
+              class="w-full h-full object-cover object-center"
+            />
+          </div>
+        </div>
+        <div class="w-full h-auto">
+          <div class="relative w-full">
+            <img src="./public/images/women-video.png" alt="video-thumbnail" />
+            <img
+              src="./public/images/play-btn.png"
+              alt="play-btn"
+              class="absolute top-60 left-[380px] w-44"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="w-full bg-gradient-to-t from-[#DBEDFF] to-[#DBEDFF] px-8 py-16 flex flex-col gap-16"
+    >
+      <div class="font-righteous flex flex-col items-center gap-6 my-10">
+        <h2 class="text-[#0E38CD] text-3xl">Testimonials</h2>
+        <p class="text-[#4E596B]">What our students say about us</p>
+      </div>
+      <div class="relative flex flex-row font-righteous text-[#7E7EAA]">
+        <div
+          class="shadow-lg bg-white p-4 pt-8 w-1/3 flex flex-col items-start relative"
+        >
+          <div class="relative w-full">
+            <img
+              src="./public/images/person-7.png"
+              alt=""
+              class="absolute h-14 left-52 top-[-70px]"
+            />
+          </div>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus
+            deleniti ratione rem maiores nam, pariatur velit ut similique in
+            laboriosam aperiam autem suscipit culpa libero neque tenetur, vitae
+            voluptatibus! Voluptates?
+          </p>
+          <div class="flex space-x-1">
+            <span class="text-yellow-400 text-2xl">&#9733;</span>
+            <span class="text-yellow-400 text-2xl">&#9733;</span>
+            <span class="text-yellow-400 text-2xl">&#9733;</span>
+            <span class="text-yellow-400 text-2xl">&#9733;</span>
+            <span class="text-gray-300 text-2xl">&#9733;</span>
+          </div>
+        </div>
+        <div
+          class="shadow-lg bg-white p-4 pt-8 w-1/3 flex flex-col items-start relative top-[-40px] z-10"
+        >
+          <div class="relative w-full">
+            <img
+              src="./public/images/person-7.png"
+              alt=""
+              class="absolute h-14 left-52 top-[-70px]"
+            />
+          </div>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus
+            deleniti ratione rem maiores nam, pariatur velit ut similique in
+            laboriosam aperiam autem suscipit culpa libero neque tenetur, vitae
+            voluptatibus! Voluptates?
+          </p>
+          <div class="flex space-x-1">
+            <span class="text-yellow-400 text-2xl">&#9733;</span>
+            <span class="text-yellow-400 text-2xl">&#9733;</span>
+            <span class="text-yellow-400 text-2xl">&#9733;</span>
+            <span class="text-yellow-400 text-2xl">&#9733;</span>
+            <span class="text-gray-300 text-2xl">&#9733;</span>
+          </div>
+        </div>
+        <div
+          class="shadow-lg bg-white p-4 pt-8 w-1/3 flex flex-col items-start relative"
+        >
+          <div class="relative w-full">
+            <img
+              src="./public/images/person-7.png"
+              alt=""
+              class="absolute h-14 left-52 top-[-70px]"
+            />
+          </div>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus
+            deleniti ratione rem maiores nam, pariatur velit ut similique in
+            laboriosam aperiam autem suscipit culpa libero neque tenetur, vitae
+            voluptatibus! Voluptates?
+          </p>
+          <div class="flex space-x-1">
+            <span class="text-yellow-400 text-2xl">&#9733;</span>
+            <span class="text-yellow-400 text-2xl">&#9733;</span>
+            <span class="text-yellow-400 text-2xl">&#9733;</span>
+            <span class="text-yellow-400 text-2xl">&#9733;</span>
+            <span class="text-gray-300 text-2xl">&#9733;</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="bg-gradient-to-tr from-[#931BBD] to-[#477AE3] pt-6 px-12 font-righteous flex flex-col gap-4"
+    >
+      <div class="text-black flex justify-between px-20 py-8">
+        <div class="flex flex-col gap-6 items-start justify-center">
+          <h3 class="text-xl">Connect</h3>
+          <img
+            src="./public/images/AskMeIdentity-logo.png"
+            alt=""
+            class="blend-logo"
+          />
+          <p class="text-xs w-1/2 text-[#9ca3af]">
+            Sri Jagannath Nivas,8-1-164/345/A/1, Pragati Colony, Mailardevpally,
+            Nawab Saheb Kunta, Hyd, 500005
+          </p>
+        </div>
+        <div class="flex flex-row gap-20">
+          <div class="flex flex-col items-start gap-3">
+            <h3 class="text-xl">Classes</h3>
+            <p>Classroom Courses</p>
+            <p>VR Courses</p>
+            <p>E-Learning Courses</p>
+            <p>Video Courses</p>
+            <p>Offile Courses</p>
+          </div>
+          <div class="flex flex-col items-start gap-3">
+            <h3 class="text-xl">Classes</h3>
+            <p>Learners</p>
+            <p>Partners</p>
+            <p>Developers</p>
+            <p>Transactions</p>
+            <p>Blog</p>
+          </div>
+          <div class="flex flex-col items-start gap-3">
+            <h3 class="text-xl">Quick Links</h3>
+            <p>Home</p>
+            <p>Professional Education</p>
+            <p>Course</p>
+            <p>Admission</p>
+            <p>Programs</p>
+          </div>
+          <div class="flex flex-col items-start gap-3">
+            <h3 class="text-xl">More</h3>
+            <p>Investors</p>
+            <p>Help</p>
+            <p>Terms</p>
+            <p>Privacy</p>
+            <p>Contact</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-row items-center justify-center gap-6 w-full">
+        <div class="w-12 h-12 bg-white rounded-full">
+          <img
+            src="./public/icons/Instagram.png"
+            alt=""
+            class="object-cover object-center p-2"
+          />
+        </div>
+        <div class="w-12 h-12 bg-white rounded-full">
+          <img
+            src="./public/icons/WhatsApp.png"
+            alt=""
+            class="object-cover object-center p-2"
+          />
+        </div>
+        <div class="w-12 h-12 bg-white rounded-full">
+          <img
+            src="./public/icons/Twitter.png"
+            alt=""
+            class="object-cover object-center p-2"
+          />
+        </div>
+        <div class="w-12 h-12 bg-white rounded-full">
+          <img
+            src="./public/icons/LinkedIn.png"
+            alt=""
+            class="object-cover object-center p-2"
+          />
+        </div>
+        <div class="w-12 h-12 bg-white rounded-full">
+          <img
+            src="./public/icons/YouTube.png"
+            alt=""
+            class="object-cover object-center p-2"
+          />
+        </div>
+      </div>
+      <div class="text-center">
+        <p class="text-white text-xs">
+          Copyright @ 2023 askmeidentity, All Rights Reserved
+        </p>
+      </div>
+    </section>
+  </body>
+</html>

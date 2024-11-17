@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-link {
+  @apply relative px-4 py-2 text-["#4A4A4A"] rounded-lg transition duration-300;
+}
+
+.nav-link::after {
+  @apply absolute bottom-[4px] left-2 w-0 h-[2px] bg-black transition-all duration-300 ease-out;
+  content: "";
+}
+
+.nav-link:hover::after {
+  @apply w-3/4;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 10s linear infinite;
+}
+
+.subscribe {
+  background: linear-gradient(
+    to right top,
+    #00b3ff,
+    #00a0ff,
+    #008aff,
+    #0071ff,
+    #0053ff,
+    #3b45ff,
+    #5931fd,
+    #7203f9,
+    #9511fa,
+    #b321fc,
+    #cd31fd,
+    #e441ff
+  );
+}
+
+.blend-logo {
+  mix-blend-mode: multiply; /* Options: multiply, screen, overlay, etc. */
+  opacity: 0.8; /* Adjust opacity to control blending */
+}
